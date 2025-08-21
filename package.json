@@ -1,0 +1,19 @@
+{
+  "name": "healthcare-translation-simple",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple Healthcare Translation App with Google Gemini AI",
+  "main": "simple-app-fixed.js",
+  "scripts": {
+    "start": "node simple-app-fixed.js",
+    "dev": "node simple-app-fixed.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "express": "^4.21.2",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["healthcare", "translation", "medical", "ai", "gemini"],
+  "author": "Healthcare Translation Team",
+  "license": "MIT"
+}
